@@ -1,3 +1,7 @@
+* {
+  background-color: rgb(255, 255, 209);
+}
+
 .calculator-container {
   position: absolute;
   top: 50%;
@@ -43,4 +47,13 @@
 .calculator-btn .btn-blue {
   background-color: yellow;
   color: black;
+}
+
+.calculator-btn .btn-equal {
+  grid-column: -1/1;
+  width: 100%;
+  background-color: rgb(145, 145, 145);
+}
+input {
+  box-sizing: border-box;
 }

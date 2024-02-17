@@ -14,7 +14,7 @@
     <section class="calculator-container">
         <div class="calculator-body">
             <div>
-                <input class="calculator-display" id="display" readonly>
+                <input type="text" class="calculator-display" id="display" readonly>
             </div>
             <div class="calculator-btn">
                 <button onclick="appendToDisplay('7')">7</button>
@@ -34,10 +34,10 @@
 
                 <button onclick="appendToDisplay('.')">.</button>
                 <button onclick="appendToDisplay('0')">0</button>
-                <button onclick="backspace()">←</button>
+
                 <button onclick="appendToDisplay('+')" class="btn-blue">+</button>
                 <button onclick="clearDisplay()" class="btn-blue">C</button>
-                <button onclick="calculate()" class="btn-blue">=</button>
+                <button onclick="calculate()" class="btn-equal">=</button>
 
             </div>
 
