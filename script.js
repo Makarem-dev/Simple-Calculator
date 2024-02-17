@@ -1,3 +1,33 @@
 'strict';
+const display = document.getElementById('display')
+function appendToDisplay(input){
+    (display.value += input)
+    console.log(input);
+} 
+function clearDisplay(){
+    display.value = ''
+}
+function backspace(){
+    
+}
+function calculate() {
+    try{
+       display.value = eval(display.value)
+       
+       
+
+    }
+    catch (error){
+        display.value = error
+
+    }
+    console.log(display.value);
+    
+
+    
+}
+
+
+    
 
 
